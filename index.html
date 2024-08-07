@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神藥功效</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            transition: all 0.8s ease;
+            background-image: url(background.png);
+            background-position: center;
+            background-size: cover;
+            font-family: "Zhi Mang Xing";
+        }
+
+        p {
+            font-size: 8vh;
+            writing-mode: vertical-lr;
+            color: #221c1c;
+        }
+
+        ::selection {
+            background-color: rgb(0, 0, 0, 0.4);
+        }
+
+        @media (min-width: 1372px) {
+            p {
+                margin: 0 10vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="key" style="color: transparent; user-select: none; -webkit-user-drag: none; -webkit-user-select: none; font-size: 2vh; ">別翻原碼了，乖乖解謎</div>
+    <div style="display: flex; justify-content:space-between; width: 100%;">
+        <p style="user-select: none; -webkit-user-drag: none; -webkit-user-select: none;">一丸百病皆可愈</p>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <p style="user-select: none; -webkit-user-drag: none; -webkit-user-select: none;">二粒</p>
+            <p id="fake" style="font-size: 3vh;">🥖🐬📊🥃🪙🔮🕋🎲🪤💿🐹🥭🥻🍨☕</p>
+        </div>
+    </div>
+    <script src="a.js"></script>
+</body>
+</html>
